@@ -7,6 +7,8 @@ This project is built to a real client of the company Digital Island the project
 
 In the written version of the website following browsers will be supported.  We cannot guarantee that the website will look and work correctly in future versions of the browsers listed.
 
+This project is a clone of the original one due to the company's private GitHub.
+
 * Google Chrome
 * Firefox
 * Safari 
