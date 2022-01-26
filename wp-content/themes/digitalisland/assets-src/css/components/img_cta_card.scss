@@ -1,0 +1,33 @@
+.cta_card_section {
+	min-height: 450px;
+	max-height: 830px;
+}
+
+
+@media screen and (min-width: 320px) {
+  	.text_box_cta {
+		top: 130px;
+		min-width: 265px;
+		width: calc(100px + 50vw);
+	}
+}
+
+@media screen and (min-width: 479px) {
+	.text_box_cta {
+	  top: 320px;
+	  width: 600px;
+	}
+  }
+
+@media screen and (min-width: 1024px) {
+  .text_box_cta {
+	top: 95px;
+	left: 320px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .text_box_cta {
+	left: 530px;
+  }
+}

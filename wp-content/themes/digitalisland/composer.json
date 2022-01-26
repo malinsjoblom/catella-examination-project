@@ -1,0 +1,7 @@
+{
+    "name": "digitalisland/theme",
+    "description": "",
+    "require": {
+        "stoutlogic/acf-builder": "^1.10"
+    }
+}

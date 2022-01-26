@@ -1,0 +1,26 @@
+@mixin smart-stretch($important: false) {
+	width: calc(100% + (100vw - 100%)) if($important, !important, null);
+	margin-left: calc(-50vw + 50%) if($important, !important, null);
+	margin-right: calc(-50vw + 50%) if($important, !important, null);
+}
+
+@mixin text-style($style) {
+	$style-desktop: map-get($text-styles, $style);
+	$style-mobile: map-get($text-styles-mobile, $style);
+
+	@if ($style-desktop AND map-has-key($text-styles, $style)) {
+		font-size: map-get($style-desktop, fs);
+		line-height: map-get($style-desktop, lh);
+		font-weight: map-get($style-desktop, fw);
+		letter-spacing: map-get($style-desktop, ls);
+	}
+
+	@if ($style-mobile AND map-has-key($text-styles-mobile, $style)) {
+		@media (max-width: $breakpoint-phone - 1px) {
+			font-size: map-get($style-mobile, fs);
+			line-height: map-get($style-mobile, lh);
+			font-weight: map-get($style-mobile, fw);
+			letter-spacing: map-get($style-mobile, ls);
+		}
+	}
+}

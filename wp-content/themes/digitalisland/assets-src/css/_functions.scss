@@ -1,0 +1,29 @@
+@function listHas($list, $value) {
+	@if index($list, $value) == null {
+		@return false;
+	}
+	@return true;
+}
+
+/* Takes any Number and returns a unitless value */
+@function strip-unit($number) {
+	@if type-of($number) == 'number' and not unitless($number) {
+		@return $number / ($number * 0 + 1);
+	}
+	@return $number;
+}
+
+/* converts pixel values to rem */
+@function px-to-rem($val, $remval: 16) {
+	$unit: unit($val);
+	$remval: strip-unit($remval);
+
+	@if ('' == $unit) {
+		$val: $val;
+	} @else if('px' == $unit) {
+		$val: strip-unit($val);
+	} @else {
+		@error "$val expected to be px or unitless, was '#{$unit}'";
+	}
+	@return 0rem + $val / $remval;
+}

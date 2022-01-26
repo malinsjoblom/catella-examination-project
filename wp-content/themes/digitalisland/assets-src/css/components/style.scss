@@ -1,0 +1,183 @@
+// Headings
+h2 {
+  font-size: 30px;
+  font-weight: 300;
+  padding-bottom: 25px;
+}
+h3 {
+  font-size: 25px;
+  font-weight: 300;
+  //padding-bottom:20px;
+}
+
+#the-content-container p {
+  padding-bottom: 24px;
+  font-weight: 300;
+}
+
+//image text block with image
+.image-text img {
+  height: 500px;
+  max-width: 550px;
+}
+
+@media (max-width: 768px) {
+  .image-text img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+//Funds slider
+.funds-card {
+    width: 250px;
+    @media screen and (min-width:425px) {
+        width:330px;
+    }
+
+    height:fit-content;
+    background-color:#E3DDE8;
+    color:#614168;
+    @media screen and (min-width:768px) {
+        width:630px;
+        height:383px;
+    }
+    @media screen and (min-width:1024px) {
+        width:707px;
+    }
+}
+
+.funds-text {
+    width:fit-content;
+    height:fit-content;
+    font-weight: 300;
+  @media screen and (min-width: 768px) {
+    font-size: 28px;
+    line-height: 2.25rem;
+  }
+}
+
+.image-signature {
+  width: 280px;
+  height: 99px;
+}
+
+.all-funds-btn {
+    width: 194px;
+    background-color:#E3DDE8;
+    color:#614168
+}
+
+//Breadcrumbs
+
+// .woocommerce-breadcrumb a {
+//   padding-right: 10px;
+//   padding-left: 10px;
+// }
+// .woocommerce-breadcrumb a,
+// .page-heading a,
+// span {
+//   color: lightgrey;
+// }
+
+// //post-page
+
+// #single-post-content h2 {
+//   font-size: 30px;
+//   font-weight: 300;
+//   padding-bottom: 2em;
+// }
+
+// #single-post-content p {
+//   font-size: 20px;
+//   font-weight: 300;
+//   width: 80%;
+// }
+
+// //Professionals
+
+// .page-id-494 .link-box-wrapper {
+//   width: 1400px;
+//   padding: 0;
+//   margin: 0 auto;
+//   margin-bottom: 100px;
+// }
+
+// @media only screen and (max-width: 1024px) {
+//   .page-id-494 .link-box-wrapper {
+//     width: 100%;
+//   }
+//   .page-id-494 .ofyr-inspiration-box img {
+//     width: 100% !important;
+//     height: 400px;
+//     object-fit: cover;
+//   }
+
+//   .page-id-494 .ofyr-inspiration-box,
+//   .professional-wrapper {
+//     margin-bottom: 0;
+//   }
+//   .page-hero {
+//     height: 250px !important;
+//   }
+// }
+
+//Print button
+
+// @media print {
+//   .call-to-action,
+//   #site-footer,
+//   header,
+//   .di-slider-wrapper,
+//   .post-wrapper,
+//   .recept-wrapper h2,
+//   .more-recept h2,
+//   .recept-button,
+//   #cookie-notice {
+//     display: none;
+//   }
+
+//   .recept-single {
+//     flex-direction: column;
+//   }
+//   img {
+//     height: 200px;
+//   }
+//   .recept-content {
+//     font-size: 18px;
+//     width: 100% !important;
+//     page-break-after: avoid !important;
+//     page-break-before: always;
+//     height: 0;
+//     margin-left: 0;
+//   }
+//   .sidebar {
+//     height: 500px;
+//     background: none;
+//     width: 100% !important;
+//     margin: 0;
+//   }
+//   .recept-sidebar ul {
+//     display: flex;
+//     flex-wrap: wrap;
+//     flex-direction: column;
+//     padding-bottom: 0;
+//     height: 400px;
+//     font-size: 18px;
+//   }
+// }
+
+// [x-cloak] {
+//   visibility: hidden !important;
+//   pointer-events: none;
+//   opacity: 0;
+// }
+
+// .cn-button.wp-default {
+//   background-color: #fff;
+//   color: #000;
+// }
+
+// p.stock.out-of-stock {
+//   padding-bottom: 15px;
+// }

@@ -1,0 +1,86 @@
+@import "functions"; // functions should be imported before anything else
+
+@import "mixins"; // import mixins after the main variables have been defined
+
+// import everything else
+@import "base/__loader";
+@import "components/__loader";
+
+
+
+@font-face{
+    font-family:"Gill Sans MT";
+    src:url("../../fonts/W05-Bold/font.woff2") format("woff2"),url("../../fonts/W05-Bold/font.woff") format("woff");
+    font-style:normal;
+    font-display: swap;
+    font-weight: 700;
+}
+
+
+@font-face{
+    font-family:"Gill Sans MT";
+    src:url("../../fonts/W05-Book/font.woff2") format("woff2"),url("../../fonts/W05-Book/font.woff") format("woff");
+    font-style:normal;
+    font-display: swap;
+    font-weight: 400;
+}
+
+@font-face{
+    font-family:"Gill Sans MT";
+    src:url("../../fonts/W04-Book/font.woff2") format("woff2"),url("../../fonts/W04-Book/font.woff") format("woff");
+    font-style:normal;
+    font-display: swap;
+    font-weight: 400;
+}
+
+@font-face{
+    font-family:"Gill Sans MT";
+    src:url("../../fonts/W03-Book/font.woff2") format("woff2"),url("../../fonts/W03-Book/font.woff") format("woff");
+    font-style:normal;
+    font-display: swap;
+    font-weight: 400;
+}
+
+@font-face{
+    font-family:"Gill Sans MT";
+    src:url("../../fonts/W03-Bold/font.woff2") format("woff2"),url("../../fonts/W03-Bold/font.woff") format("woff");
+    font-style:normal;
+    font-display: swap;
+    font-weight: 700;
+}
+
+@font-face{
+    font-family:"Gill Sans MT";
+    src:url("../../fonts/W02-Book/font.woff2") format("woff2"),url("../../fonts/W02-Book/font.woff") format("woff");
+    font-style:normal;
+    font-display: swap;
+    font-weight: 400;
+}
+
+@font-face{
+    font-family:"Gill Sans MT";
+    src:url("../../fonts/W01-Book/font.woff2") format("woff2"),url("../../fonts/W01-Book/font.woff") format("woff");
+    font-style:normal;
+    font-display: swap;
+    font-weight: 400;
+}
+
+@font-face{
+    font-family:"Gill Sans MT";
+    src:url("../../fonts/W01-Bold/font.woff2") format("woff2"),url("../../fonts/W0-Bold/font.woff") format("woff");
+    font-style:normal;
+    font-display: swap;
+    font-weight: 700;
+}
+
+
+body,
+h1,
+h2,
+h3,
+h4,
+a,
+button,
+p {
+  font-family: "Gill Sans MT";
+}
