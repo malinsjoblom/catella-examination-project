@@ -17,9 +17,11 @@ This project is a clone of the original one due to the company's private GitHub.
 * Android Browser
 
 
-Built in WordPress (Version 5.10.2) and with Digital Island Theme. 
+Built in WordPress (Version 5.10.2) with Digital Island Theme. 
 
-In WordPress I’ve used these plugins  Advanced Custom Fields Multilingual | Version 1.9.5
+
+In WordPress I’ve used these plugins
+Advanced Custom Fields Multilingual | Version 1.9.5
 Advanced Custom Fields PRO | Version 5.10.2
 Query Monitor | Version 3.7.1
 WPML Multilingual CMS | Version 4.5.2
@@ -27,5 +29,8 @@ WPML String Translation | Version 3.2.0
 Contact Form 7 |  Version 5.5.2
 Contact Form 7 Multilingual | Version 1.1.0
 
+Dependencies: 
+swiper 6.3.5"
+tailwindCSS(2.0.2)
 
-Using PHP (Version 7.3.29) and JavaScript (ES6)
+Also built using PHP (Version 7.3.29), JavaScript (ES6), Local (6.1.8+5621), 
